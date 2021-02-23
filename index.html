@@ -5,25 +5,27 @@
 <script src="./p5.play.js"></script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
 
 <script>
   // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyD6rOretCTF2i386YQxn8HIl1kkYq33PGk",
-    authDomain: "air-balloon-ride-be79e.firebaseapp.com",
-    databaseURL: "https://air-balloon-ride-be79e-default-rtdb.firebaseio.com",
-    projectId: "air-balloon-ride-be79e",
-    storageBucket: "air-balloon-ride-be79e.appspot.com",
-    messagingSenderId: "535283538765",
-    appId: "1:535283538765:web:b45f7c0214d1a48204f504"
+    apiKey: "AIzaSyBJdZJ7lAnzg370E0WhzbM9XGPB9F63Eoo",
+    authDomain: "hot-air-balloon-ride-b393c.firebaseapp.com",
+    projectId: "hot-air-balloon-ride-b393c",
+    storageBucket: "hot-air-balloon-ride-b393c.appspot.com",
+    messagingSenderId: "737923083278",
+    appId: "1:737923083278:web:5d48b24b12e528acc6a05f",
+    measurementId: "G-X8FRNQXMW1"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
